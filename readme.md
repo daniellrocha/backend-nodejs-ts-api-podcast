@@ -1,6 +1,3 @@
-Aqui está um modelo de `README.md` completo e organizado para o seu projeto **Podcast Manager**. Ele segue boas práticas de documentação, incluindo seções de descrição, funcionalidades, como executar e exemplos de uso:
-
----
 
 ````markdown
 # 🎧 Podcast Manager
