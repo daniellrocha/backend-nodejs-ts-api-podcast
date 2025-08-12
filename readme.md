@@ -17,14 +17,6 @@ O **Podcast Manager** é uma API REST que permite listar episódios de podcasts 
 
 ---
 
-## 📂 Domínio
-
-- Podcasts em vídeo (ex: YouTube).
-- Organização por categorias temáticas.
-- Foco na exibição de episódios com informações visuais (capas, vídeos, títulos).
-
----
-
 ## 🚀 Funcionalidades
 
 - ✅ Listar episódios de podcasts organizados por categorias:
@@ -91,6 +83,23 @@ Filtra os episódios por nome do podcast.
 ```
 GET /episodes?name=flow
 ```
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto **Podcast Manager** utiliza as seguintes tecnologias:
+
+| Tecnologia                                                         | Descrição                                                                         |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| [**Node.js**](https://nodejs.org/)                                 | Plataforma de execução para JavaScript no servidor                                |
+| [**TypeScript**](https://www.typescriptlang.org/)                  | Superset do JavaScript com tipagem estática                                       |
+| [**tsx**](https://github.com/esbuild-kit/tsx)                      | Executa arquivos TypeScript diretamente no Node.js, com suporte a arquivos `.env` |
+| [**tsup**](https://tsup.egoist.dev/)                               | Empacotador rápido baseado em esbuild para gerar builds de produção               |
+| [**@types/node**](https://www.npmjs.com/package/@types/node)       | Tipagens do Node.js para projetos TypeScript                                      |
+| [**npm scripts**](https://docs.npmjs.com/cli/v9/using-npm/scripts) | Scripts para automatizar tarefas como build e execução do servidor                |
+
+> Essas ferramentas proporcionam um ambiente leve, moderno e eficiente para desenvolvimento com TypeScript puro.
 
 ---
 
